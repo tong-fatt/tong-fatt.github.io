@@ -1,0 +1,56 @@
+/*Imports font from https://fonts.google.com/*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+/*1. change the background color to: #f3f3f3*/
+.my-body{
+	background-color: #f3f3f3;
+	
+}
+
+/*2. add a border of color: #aaa*/
+/*3. change the background color to: white*/
+/*4. set the max width to: 600px*/
+/*5. set the margin for top & bottom to: 10px*/
+/*6. center the div using margin*/
+/*7. create an inner padding (space) of size: 1rem*/
+/*8. create a shadow: 5px 5px 5px #aaa*/
+.my-container{
+	border-color: #aaa;
+	background-color: white;
+	max-width: 600px;
+	/*margin-top: 10px;*/
+	/*margin-bottom: 10px;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+	margin: 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 25px #aaa;
+
+
+
+
+
+
+}
+
+/*9. change text color to: orangered*/
+/*10. change text decoration to: overline*/
+/*11. increase the font size to: 4rem*/
+.my-highlight{
+	color: orangered;
+	text-decoration: overline;
+	font-size: 4rem;
+
+
+}
+
+/*12. reduce the width to: 20%*/
+/*13. set border as: 10px solid orangered*/
+/*14. shift to the left using margin-left*/
+.my-hr{
+	width: 20%;
+	border: 10px solid orangered;
+	margin-left: 0;
+
+	
+}

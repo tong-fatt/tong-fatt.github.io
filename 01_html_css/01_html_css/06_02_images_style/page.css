@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+.my-container{
+	border: 1px solid #aaa;
+	background-color: white;
+	max-width: 400px;
+	margin: 110px auto 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+	font-family: "Lato";
+}
+.my-container h1{
+	text-align: center;
+}
+.my-container ul{
+	max-width: 200px;
+	margin: auto;
+}
+.my-hr{
+	max-width: 300px;
+	border: 10px solid orangered;
+}
+
+/*1. change the display to: block*/
+/*2. set width and height as: 200px*/
+/*3. center image with margin*/
+/*4. round the image with border-radius*/
+/*5. create a border: 1px solid #aaa*/
+/*6. shift the image up with margin-top: -100px*/
+.my-face{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	border: 1px black solid;
+	margin-top: -100px;	
+
+
+
+
+
+}
+
+/*stripe generator: http://www.stripegenerator.com/*/
+/*7. set background image as: stripe_background.png*/
+.my-body{
+	background-image: url(stripe_background.png);
+}

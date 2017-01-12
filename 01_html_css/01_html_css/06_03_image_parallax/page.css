@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
+
+.my-body{
+	font-family: "Lato";
+	margin: 0;
+}
+.my-container{
+	font-size: 3rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+/*1. set the height to: 80vh*/
+/*2. add a brackground image: galexy_background.jpg*/
+/*3. disable the image tiling using background-repeat*/
+/*4. auto scale the background size*/
+/*5. align the image background position*/
+/*6. make a parallax effect by fixing the background-attachment*/
+.my-parallax{
+	height: 80vh;
+	background-image: url("galexy_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+
+
+
+
+	
+}
