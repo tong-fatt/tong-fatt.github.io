@@ -34,12 +34,14 @@ body{
     margin: 1em 0 1em 0;
 }
 input[type=text].my-input,input[type=email].my-input{
-    background-color: transparent;
+    /*background-color: transparent;*/
+    background-color: #FFFFFF;
     border-radius: 0;
     border-width: 0 0 1px 0;
     border-color: gray;
-    color: #FFA0AC;
-    height: 0.5em;
+    /*color: #FFA0AC;*/
+    color:#FFA0AC;
+    height: 2.0em; 
 }
 
 .my-btn{
@@ -48,3 +50,9 @@ input[type=text].my-input,input[type=email].my-input{
     color: white;
     font-weight: bold;
 }
+
+.my-link{
+    /*font-weight: 900;*/
+    text-decoration: none;
+    color: white;
+
