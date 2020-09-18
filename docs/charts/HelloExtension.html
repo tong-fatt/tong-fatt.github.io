@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Extensions</title>
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../lib/tableau.extensions.1.latest.js"></script>
+
+    <script src="./hello-extensions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <!-- <script type="text/javascript">
+        // load the visualization library from Google and set a listener
+     
+
+     
+           function drawChart() {
+     
+            // var data = google.visualization.arrayToDataTable([
+            //   ['Label', 'Value'],
+            //   ['Inventory', 20],
+            //   ['DM', 55],
+           //    ['IDM', 68]
+           //  ]);
+              // grab the CSV
+             $.get("example.csv", function(csvString) {
+           // transform the CSV string into a 2-dimensional array
+           var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+     
+           // this new DataTable object holds all the data
+             var data = new google.visualization.arrayToDataTable(arrayData);
+             var options = {
+               width: 600, height: 100,
+               redFrom: 90, redTo: 100,
+               yellowFrom:75, yellowTo: 90,
+               minorTicks: 10
+             };
+     
+             var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+     
+             chart.draw(data, options);
+             console.log(data);
+             
+             //  data.setValue(0, 1,30);
+             //  console.log(data);
+               //chart.draw(data, options);
+             
+            // setInterval(function() {
+              // data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
+              // chart.draw(data, options);
+            // }, 10000);
+            // setInterval(function() {
+              // data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
+               //chart.draw(data, options);
+             //}, 10000);
+            })  
+         }
+         </script> -->
+</head>
+<body>
+    <div class="container">
+        <div>
+            <!-- <h1>Dashboard at a glance</h1> -->
+            <p id="resultBox" class="lead"Not Initialized></p>
+            <!-- <button id="initializeButton" class="btn btn-primary">Initialize Extensions API</button> -->
+            <div id="chart_div" style="width: 800px; height: 280px;"></div>
+        </div>
+    </div>    
+</body>
+</html>
