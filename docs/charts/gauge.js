@@ -96,7 +96,7 @@ function drawChart() {
  // this new DataTable object holds all the data
   //  var data = new google.visualization.arrayToDataTable(arrayData);
    var options = {
-     width: 1200, height: 200,
+     width: 1100, height: 200,
      redFrom: 0, redTo: 50,
      yellowFrom:50, yellowTo: 200,
      max: 600,
