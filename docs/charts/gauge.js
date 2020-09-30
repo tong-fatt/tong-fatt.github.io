@@ -69,7 +69,7 @@ $(document).ready(function(){
   const worksheetData = sumdata;
   // The getSummaryDataAsync() method returns a DataTable
   // Map the DataTable (worksheetData) into a format for display, etc.
-// console.log(worksheetData._data[0][0]._value, Math.round(worksheetData._data[0][1]._value/1000000));
+console.log(worksheetData._data[0][0]._value, Math.round(worksheetData._data[0][1]._value/1000000));
 console.log('test: ' +sumdata)
 google.charts.load('current', {'packages':['gauge']});
 google.charts.setOnLoadCallback(drawChart);
